@@ -93,7 +93,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		//var_dump($ccc);
 			foreach($ccc as $k=>$v){
 		?>
-		<p><?php print_r($ccc[$k]);?></p>
+		<p><?php print_r($ccc[$k]['Writer']);?></p>
 		<?php		
 			}
 		?>
