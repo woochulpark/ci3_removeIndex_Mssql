@@ -95,6 +95,8 @@ $db['default'] = array(
 	'save_queries' => TRUE
 );
 */
+//linux에서는 설정을 어떻게 하는지 모르지만 windows xampp에서는 
+//sql port를 ip,port 이렇게 해야 함. : <= 안됨.
 $db['default'] = array(
 	'dsn'	=> '',
 	'hostname' => '192.168.1.194,1433',
