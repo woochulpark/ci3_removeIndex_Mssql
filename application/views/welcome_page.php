@@ -90,10 +90,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		<p>The corresponding controller for this page is found at:</p>
 		<code>application/controllers/Welcome.php</code>
 		<?php
-		var_dump($ccc);
+		//var_dump($ccc);
 			foreach($ccc as $k=>$v){
 		?>
-		<p><?php echo $v;?></p>
+		<p><?php print_r($ccc[$k]);?></p>
 		<?php		
 			}
 		?>
